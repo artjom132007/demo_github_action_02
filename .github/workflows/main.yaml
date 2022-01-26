@@ -8,6 +8,9 @@ on:
 jobs:
   prepare:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+          check-sites: [onliner.by, google.com, github.com]
     steps:
       - name: Install netcat
         run: sudo apt update && sudo apt install -y netcat
