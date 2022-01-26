@@ -27,4 +27,4 @@ jobs:
         SLACK_MESSAGE: 'Post Content :rocket:'
         SLACK_TITLE: 'Looks like job is done :)'
         SLACK_USERNAME: pluhin
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
